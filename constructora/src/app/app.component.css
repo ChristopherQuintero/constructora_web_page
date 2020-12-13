@@ -10410,12 +10410,13 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
-    color: #fff;
+    background-color: #fff;
+    color: #803638;
 }
 
 .copyright {
     background-color: #1a252f;
+    border-radius: 5rem 5rem 0 0;
 }
 
 .logo-header {
@@ -10430,6 +10431,27 @@ form .row:first-child .floating-label-form-group {
 
 .fondo-home {
     background-image: url('./../assets/img/portfolio/fondo4.png');
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0;
+}
+
+.fondo-home-2 {
+    background-image: url('./../assets/img/portfolio/fondo.png');
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0;
+}
+
+.fondo-home {
+    background-image: url('./../assets/img/portfolio/fondo4.png');
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0;
+}
+
+.fondo-home-3 {
+    background-image: url('./../assets/img/portfolio/fondo1.png');
     background-position: center;
     background-size: cover;
     background-position-y: 0;
