@@ -427,7 +427,16 @@ h6,
 
 .lead {
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 500;
+}
+
+.lead-servicio {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.serv ul li {
+    font-size: 1.25rem;
 }
 
 .display-1 {
@@ -3072,9 +3081,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light:hover {
-    color: #212529;
+    color: #1a252f;
     background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    border-color: #1a252f;
 }
 
 .btn-outline-light:focus,
@@ -10184,6 +10193,7 @@ a.text-dark:focus {
     font-size: 1.25rem;
     justify-content: center;
     align-items: center;
+    border-color: #803638;
 }
 
 .scroll-to-top {
@@ -10429,6 +10439,12 @@ form .row:first-child .floating-label-form-group {
     padding: 1rem;
 }
 
+.clientes {
+    height: 10rem;
+    padding: 1.5rem;
+    max-width: max-content;
+}
+
 .fondo-home {
     background-image: url('./../assets/img/portfolio/fondo4.png');
     background-position: center;
@@ -10455,4 +10471,12 @@ form .row:first-child .floating-label-form-group {
     background-position: center;
     background-size: cover;
     background-position-y: 0;
+}
+
+.material-icons {
+    color: #803638;
+}
+
+.material-icons:hover {
+    color: #1a252f;
 }

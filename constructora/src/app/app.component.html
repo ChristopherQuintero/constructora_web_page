@@ -12,8 +12,8 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#home">Home</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#proyectos">Proyectos</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#servicio">Servicio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#somos">Somos</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#equipo">Nuestro Equipo</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#clientes">Clientes</a></li>
+                    <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#equipo">Nuestro Equipo</a></li> -->
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contacto">Contacto</a></li>
                 </ul>
             </div>
@@ -121,110 +121,146 @@
     <section class="page-section text-white mb-0 fondo-home-2" id="servicio">
         <div class="container">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Servicios</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-white">Nuestros Servicios</h2>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
+            <br>
             <!-- About Section Content-->
             <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                <div class="col-lg-4 ml-auto serv">
+                    <img class="masthead-avatar mb-5" src="./../assets/img/portfolio/serv1.png" alt="" />
+                    <p class="lead-servicio">Obras Civiles</p>
+                    <ul>
+                        <li>Hormigón Armado.</li>
+                        <li>Hormigón para radiales.</li>
+                        <li>Movimiento de tierra.</li>
+                        <li>Reparación de calle o Carretera.</li>
+                        <li>OOCC.</li>
+                    </ul>
                 </div>
-                <div class="col-lg-4 mr-auto">
-                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                <div class="col-lg-4 mr-auto serv">
+                    <img class="masthead-avatar mb-5" src="./../assets/img/portfolio/serv2.png" alt="" />
+                    <p class="lead-servicio">Mineria Subterranea</p>
+                    <ul>
+                        <li>Sostenimiento.</li>
+                        <li>Colocación de pernos.</li>
+                        <li>Colocación de mallas.</li>
+                        <li>Colocación de hormigón proyectado.</li>
+                        <li>Excavación de túneles.</li>
+                        <li>OOCC en túneles.</li>
+                    </ul>
                 </div>
-            </div>
-            <!-- About Section Button-->
-            <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-                    <i class="fas fa-download mr-2"></i> Free Download!
-                </a>
+                <div class="col-lg-4 mr-auto serv">
+                    <img class="masthead-avatar mb-5" src="./../assets/img/portfolio/serv3.png" alt="" />
+                    <p class="lead-servicio">Fortificacion de taludes</p>
+                    <ul>
+                        <li>Limpieza de taludes.</li>
+                        <li>Colocación de malla.</li>
+                        <li>Colocación de perno.</li>
+                        <li>Auto perforantes.</li>
+                        <li>Helicoidales.</li>
+                        <li>Hormigón proyectado.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Somos Section-->
-    <section class="page-section" id="somos">
+    <!-- Algunos Clientes - Section-->
+    <section class="page-section portfolio" id="clientes">
         <div class="container">
-            <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Quienes somos</h2>
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Ellos confiaron en nosotros</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            <!-- Contact Section Form-->
+            <!-- Portfolio Grid Items / CLIENTES-->
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Email Address</label>
-                                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br />
-                        <div id="success"></div>
-                        <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                    </form>
+                <!-- Besalco // Cliente 1 -->
+                <div class="col-md-6 col-lg-4 mb-5 clientes">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="./../assets/img/portfolio/cliente_1.PNG" alt="HidroColbun" />
+                    </div>
+                </div>
+                <!-- Sacyr // Cliente 2 -->
+                <div class="col-md-6 col-lg-4 mb-5 clientes">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="./../assets/img/portfolio/cliente_2.PNG" alt="TunelPiques" />
+                    </div>
+                </div>
+                <!-- Fluor-Salfa // Cliente 3 -->
+                <div class="col-md-6 col-lg-4 mb-5 clientes">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="assets\img\portfolio\cliente_3.PNG" alt="PantallasProtectoras" />
+                    </div>
+                </div>
+                <!-- Metro de Santiago // Cliente 4 -->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 clientes">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="./../assets/img/portfolio/cliente_4.PNG" alt="ObrasTraslado" />
+                    </div>
+                </div>
+                <!-- BHP // Cliente 5 -->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0 clientes">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="./../assets/img/portfolio/cliente_5.PNG" alt="Minera Spence" />
+                    </div>
+                </div>
+                <!-- Colbun // Cliente 6 -->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0 clientes">
+                    <div class="portfolio-item mx-auto">
+                        <img class="img-fluid" src="./../assets/img/portfolio/cliente_6.PNG" alt="Minera Spence" />
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Equipo Section-->
+    <!-- Mision y Vision Section-->
     <section class="page-section text-white mb-0 fondo-home-3" id="equipo">
         <div class="container">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Servicios</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-white">Politica, Mision y Vision</h2>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
             <!-- About Section Content-->
-            <div class="row">
+            <div class="row" style="margin-top: 2rem;">
                 <div class="col-lg-4 ml-auto">
-                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                    <p class="lead" style="text-align: center;">Politica</p>
+                    <p class="lead">Nuestras acciones como compañía se enfocan en dos objetivos:<br>I. Realización de cada trabajo con cero accidente.<br>II. Desarrollo de políticas de excelencia y calidad.</p>
                 </div>
                 <div class="col-lg-4 mr-auto">
-                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                    <p class="lead" style="text-align: center;">Mision</p>
+                    <p class="lead">
+                        1.- Realizar cada trabajo mediante la elaboración y puesta en practica de procedimiento claros y seguros.<br>2.- Generar políticas de <strong>cero</strong> accidente, para lo cual nos interesa principalmente: <br>* Contar con personal
+                        calificado y de amplia experiencia.
+                        <br>* Desarrollar en nuestros trabajadores compromiso y motivación.<br>* Desarrollar conductas de autocuidado.<br>3.- Desarrollar cada trabajo colocando especial cuidado en la protección del medio ambiente.
+                    </p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead" style="text-align: center;">Vision</p>
+                    <p class="lead">IMCD Ingeniería y Construcción SPA aspira a ser reconocida en el mercado como empresa líder desarrollando cada trabajo con altos estándares de seguridad, calidad y protección del medio ambiente.</p>
                 </div>
             </div>
             <!-- About Section Button-->
-            <div class="text-center mt-4">
+            <!-- <div class="text-center mt-4">
                 <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
                     <i class="fas fa-download mr-2"></i> Free Download!
                 </a>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -241,24 +277,53 @@
                       </span>
                     </h4>
                     <p class="lead mb-0">
-                        AV. PDTE. KENNEDY 7440 OF 104
+                        AV. PDTE. KENNEDY 7440
+                        <br>OFICINA 104
                         <br />VITACURA
                     </p>
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    <h4 class="text-uppercase mb-4">
+                        IMCD en la Web
+                        <span class="material-icons">
+                        touch_app
+                        </span>
+                    </h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!">
+                        <span class="material-icons">
+                      facebook
+                      </span>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!">
+                        <span class="material-icons">
+                        share
+                      </span>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.google.com/search?q=coronavirus+chile&client=firefox-b-d&sxsrf=ALeKk02GUxoEENnBgCnxyczQ2KwRRvB32Q:1607888640312&source=lnms&tbm=nws&sa=X&ved=2ahUKEwj4wfn528vtAhXQGLkGHb4_B3gQ_AUoAnoECCwQBA&biw=1920&bih=938">
+                        <span class="material-icons">
+                        coronavirus
+                      </span>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!">
+                        <span class="material-icons">
+                        public
+                      </span>
+                    </a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <h4 class="text-uppercase mb-4">
+                        Teléfono
+                        <span class="material-icons">
+                          call
+                          </span>
+                    </h4>
                     <p class="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a> .
+                        Estudio e Ingeniería
+                        <br>+56 9 3265 3392
+                        <br />+56 9 9309 1096
+                        <br>+56 9 9822 9425
                     </p>
                 </div>
             </div>
