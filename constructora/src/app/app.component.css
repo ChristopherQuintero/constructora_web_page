@@ -10485,3 +10485,15 @@ form .row:first-child .floating-label-form-group {
     border-radius: 15px;
     border: 5px solid #803638;
 }
+
+.image-modal {
+    width: 8rem;
+    height: 8rem;
+}
+
+@media (min-width: 576px) {
+    .image-modal {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+}
