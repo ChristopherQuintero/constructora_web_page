@@ -10480,3 +10480,8 @@ form .row:first-child .floating-label-form-group {
 .material-icons:hover {
     color: #1a252f;
 }
+
+.img-serv {
+    border-radius: 15px;
+    border: 5px solid #803638;
+}
